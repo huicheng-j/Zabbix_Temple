@@ -1,4 +1,3 @@
-# zabbix_temple
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.0</version>
@@ -12,6 +11,7 @@
         <template>
             <template>Templates Redis_6379</template>
             <name>Templates Redis_6379</name>
+            <description>Templates Redis_6379</description>
             <groups>
                 <group>
                     <name>Templates</name>
@@ -38,9 +38,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -61,6 +64,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>Connected clients_6379</name>
@@ -77,9 +81,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -100,6 +107,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>Connected slave_6380</name>
@@ -116,9 +124,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -139,6 +150,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>Connection rate_6379</name>
@@ -155,9 +167,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>1</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -178,6 +193,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>Evicted_keys_6379</name>
@@ -194,9 +210,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -217,6 +236,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>Expired keys_6379</name>
@@ -233,9 +253,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -256,6 +279,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>Last save time_6379</name>
@@ -272,9 +296,12 @@
                     <allowed_hosts/>
                     <units>unixtime</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -295,6 +322,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>port status_6379</name>
@@ -311,9 +339,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -334,6 +365,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>Request rate_6379</name>
@@ -350,9 +382,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>1</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -373,6 +408,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>Role_6379</name>
@@ -389,9 +425,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -412,6 +451,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>Uptime in seconds_6379</name>
@@ -428,9 +468,12 @@
                     <allowed_hosts/>
                     <units>uptime</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -451,6 +494,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>Used memory_6379</name>
@@ -467,9 +511,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -490,6 +537,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>Used_memory_rss_6379</name>
@@ -506,9 +554,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -529,6 +580,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
             </items>
             <discovery_rules/>
